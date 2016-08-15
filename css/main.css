@@ -145,7 +145,7 @@ footer{
 	padding: 2%;
 	color:white;
 }
-@media (max-width: 778px);{
+@media screen and (max-width : 778px){
 	.fondo2	{
 		display: none;
 	}
