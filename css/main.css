@@ -1,0 +1,158 @@
+header{
+	position: fixed;
+	width: 100%;
+	padding-top: 2%;
+	z-index: 1;
+	background-color: rgba(48, 35, 32, 0.4);
+	background: rgba(48, 35, 32, 0.4);
+	color: rgba(48, 35, 32, 0.4);
+}
+.navbar-default{
+	background-color: transparent;
+	border: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.fondo1{
+	background-image: url("../image/large.jpg");
+	background-position: top;
+	background-size: cover;
+	padding-top: 1.8%;
+}
+.blue{
+	color: #839CB3;
+}
+nav a{
+	color: white;
+}
+.titulo{
+	color: white;
+    padding-top: 16%;
+    padding-bottom: 9.4%;
+   	padding-left: 25%;
+   	padding-right: 25%;
+    text-align: center;
+}
+.caja1{
+	background-color: rgb(78,126,184);
+	height: 176px;
+	opacity: 0.5;
+	color:white;
+	padding-top: 5%;
+}
+.boton2{
+	padding: 6% 18%;
+}
+.bd-white{
+	border-color: white;
+	font-size: 1.5em;
+}
+
+.pd-5-0{
+	padding-top: 5%;
+	padding-bottom: 0%;
+}
+.font2em{
+	font-size: 2em;
+}
+.icon{
+	padding: 15%;
+    border-radius: 50%;
+    box-shadow: 1px 4px 5px 0px rgba(189,187,189,1);
+}
+.pd-l-40{
+	padding-left: 40%;
+}
+.pd0-5{
+	    padding: 0% 5%;
+}
+.pd-b-6{
+	padding-bottom: 6%;
+}
+.pd-t-6{
+	padding-top: 6%;
+}
+.pd-t-4{
+	padding-top: 6%;
+}
+.pd-t-b{
+	padding-top: 20%;
+	padding-bottom: 15%;
+}
+.pd-l-4{
+	padding-left: 4%;
+}
+.pd-l-20{
+	padding-left: 20%;
+}
+.mg-0-47{
+	margin: 0% 46%;
+}
+.mg-t-0{
+	margin-top: 0px;
+}
+.wt-100{
+	width: 100%;
+}
+.wt-50{
+	width: 50%;
+}
+hr{
+	margin-top: -3.5%;
+}
+.lg-blue{
+	color: #75B2FF;
+}
+iframe{
+	width: 100%
+}
+.dark{
+	-webkit-filter: contrast(50%);
+}
+.fondo2{
+	-webkit-filter: contrast(50%);
+	background-image: url("../image/sec-2.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+.icon2{
+	width: 45%;
+    padding: 12%;
+    font-size: 1.5em;
+    background-color: #50BDEA;
+    border-radius: 50%;
+    text-align: center;
+    margin: 50% 0%;
+    color: white;
+
+}
+.xd{
+	padding: 0px;
+    margin: 0% -2%;
+}
+.icon3{
+	margin: 0% -3%;
+    width: 60%;
+}
+.copy{
+	text-align: right;
+    padding-top: 2%;
+}
+footer{
+	background-color:#2A3541;
+	padding: 2%;
+	color:white;
+}
+@media (max-width: 778px);{
+	.fondo2	{
+		display: none;
+	}
+	.xd{
+		display: none;
+	}
+	.icon2{
+		display: none;
+	}
+}
